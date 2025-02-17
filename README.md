@@ -76,15 +76,15 @@ function secretLoveMessage() {
    cd your-repo-name
    ```
 3. **打开网页**：双击 `index.html` 文件，或使用浏览器打开。
-
+---
 ## � 使用说明
 
 - **浏览图片**：点击不同的图片，查看各种表情。
 - **播放音乐**：网页加载时会自动播放背景音乐，你可以通过控制按钮暂停或播放。
 - **交互效果**：尝试与页面上的元素进行交互，体验动态效果。
-
+---
 ## 🤝 贡献指南
-
+---
 欢迎贡献代码！如果你有任何改进建议或发现了问题，请提交 Issue 或 Pull Request。
 
 1. **Fork 项目**：首先 Fork 本项目。
@@ -101,11 +101,46 @@ function secretLoveMessage() {
    git push origin feature/YourFeatureName
    ```
 5. **提交 Pull Request**：在 GitHub 上提交 Pull Request。
+   
+---
+## 🚀 新增功能建议
+1. **手机振动反馈**：点击按钮时触发`navigator.vibrate()`
+2. **微信分享适配**：添加`WeixinJSBridge`分享配置
+3. **加载进度条**：使用`Pace.js`增强加载体验
+4. **动画优化**：引入`Animate.css`预置动画
 
+## 🐛 已知问题说明
+```markdown
+- [ ] iOS设备自动播放受限（需用户主动交互）
+- [ ] 部分安卓机GIF加载卡顿
+- [x] 修复Chrome点击穿透问题
+```
+---
+## 📸 预览优化建议
+**推荐使用GitHub Pages托管预览图**：
+```markdown
+![预览截图](https://raw.githubusercontent.com/用户名/仓库名/main/images/preview1.jpg)
+```
+
+## 🌍 部署增强
+**添加多语言支持**：
+```html
+<!-- 在index.html中添加 -->
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="alternate" hreflang="en" href="en.html">
+```
+---
+## 📝 补充文档说明
+**音乐使用注意事项**：
+> 根据《网络视听节目内容审核通则》，背景音乐需确保：
+> 1. 无版权纠纷（推荐使用CC0音乐）
+> 2. 音量峰值控制在-16dBFS以内
+> 3. 提供静音切换按钮
+---
 ## 📜 许可证
 
 本项目采用 MIT 许可证。详情请参阅 [LICENSE](LICENSE) 文件。
-
+---
 ## 📞 联系方式
 
 如果你有任何问题或建议，欢迎联系我：

@@ -6,7 +6,7 @@
 
 ## 🌈**部署地址**🌈
 🔥**在线体验戳这里！速度上车！**🔥  
-👉👉👉 http://love.gczdy.cn/ 👈👈👈  
+👉👉👉 [http://love.gczdy.cn/](https://dddddduo.github.io/Cat-Love/) 👈👈👈  
 （手机电脑都能玩！快分享给TA！💖）
 
 ---
